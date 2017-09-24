@@ -1,0 +1,38 @@
+{
+  "name": "page-thumbnail",
+  "version": "0.1.0",
+  "description": "A small REST API service for Website thumbnail",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --exec npm start",
+    "test": "./node_modules/mocha/bin/mocha --watch --reporter spec test"
+  },
+  "keywords": [
+    "Website",
+    "thumbnail",
+    "REST",
+    "API",
+    "thumbnail",
+    "Node.js",
+    "AWS",
+    "S3",
+    "PhantomJS"
+  ],
+  "author": "Zahidul Islam <zahidsharp@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.122.0",
+    "dotenv": "4.0.0",
+    "express": "4.15.4",
+    "uuid": "3.1.0",
+    "webshot": "0.18.0",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-http": "3.0.0",
+    "mocha": "3.5.3",
+    "nodemon": "1.12.1"
+  }
+}
